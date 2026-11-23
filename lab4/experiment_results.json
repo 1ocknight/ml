@@ -1,0 +1,40 @@
+{
+  "selected_model": "SoftVoting(LogReg+RandomForest+GradientBoosting)",
+  "selected_metrics": {
+    "roc_auc": 0.8278571428571428,
+    "accuracy": 0.8,
+    "precision": 0.8289473684210527,
+    "recall": 0.9,
+    "f1": 0.863013698630137
+  },
+  "experiments": {
+    "RandomForest": {
+      "roc_auc": 0.8303571428571429,
+      "accuracy": 0.805,
+      "precision": 0.8136645962732919,
+      "recall": 0.9357142857142857,
+      "f1": 0.8704318936877077
+    },
+    "GradientBoosting": {
+      "roc_auc": 0.8166666666666667,
+      "accuracy": 0.775,
+      "precision": 0.8187919463087249,
+      "recall": 0.8714285714285714,
+      "f1": 0.8442906574394463
+    },
+    "HistGradientBoosting": {
+      "roc_auc": 0.79,
+      "accuracy": 0.78,
+      "precision": 0.82,
+      "recall": 0.8785714285714286,
+      "f1": 0.8482758620689655
+    },
+    "SoftVoting(LogReg+RandomForest+GradientBoosting)": {
+      "roc_auc": 0.8278571428571428,
+      "accuracy": 0.8,
+      "precision": 0.8289473684210527,
+      "recall": 0.9,
+      "f1": 0.863013698630137
+    }
+  }
+}
